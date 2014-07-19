@@ -4,8 +4,12 @@ title: Hack and Tell DC
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <a href="https://hackpad.com/sHmljSNxt0U" target="_blank"> HackPad for Current Meetup </a>
+  <h1>Current Meetup</h1>
+  <a href="https://hackpad.com/sHmljSNxt0U" target="_blank"> HackPad for Current Meetup </a> | <a href="https://docs.google.com/forms/
+  d/15F33kAQFgI825JECUI7uAqXrdgbr1dkjO0DRK4MOKq4/viewform"> Apply to Speak at Next Meet up</a>
+  <br />
+  <br />
+  <h1>Previous Meetup Write Ups</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
