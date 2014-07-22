@@ -49,6 +49,74 @@ a:visited { color: #a0a; }
   font-size: 80%;
 }
 
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.logo {
+  margin-bottom: 3.5em;
+}
+
+
+/*****************************************************************************/
+/*
+/* Links
+/*
+/*****************************************************************************/
+
+#links{
+  margin: 3em 0 3em 0;
+  text-align: center;
+}
+
+#links h1 {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
+
+#links .blue {
+  background-color: #398BCA;
+}
+
+#links a.blue:hover{
+  background-color: #0277BD;
+}
+
+#links .red {
+  background-color: #DB3126;
+}
+
+#links a.red:hover{
+  background-color: #BD3926;
+}
+
+#links .green{
+  background-color: #75BF43;
+}
+
+#links a.green:hover{
+  background-color: #307D3D;
+}
+
+#links .orange {
+  background-color: #F26D21;
+}
+
+#links a.orange:hover{
+  background-color: #E45325;
+}
+
+#links .button{
+  padding:1em;
+  margin:.5em;
+  color:#fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
 /*****************************************************************************/
 /*
 /* Site
@@ -157,4 +225,8 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.post img {
+  width: 42em;
 }
