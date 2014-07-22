@@ -55,8 +55,15 @@ a:visited { color: #a0a; }
   display: block;
 }
 
-.logo {
+.header {
   margin-bottom: 3.5em;
+}
+
+.sub-head {
+  color: #999999;
+  font-weight: normal;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 
