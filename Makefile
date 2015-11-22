@@ -11,5 +11,8 @@ build:
 serve:
 	jekyll serve
 
+view:
+	xdg-open http://127.0.0.1:4000/
+
 edit:
 	emacs $(current_post) &
