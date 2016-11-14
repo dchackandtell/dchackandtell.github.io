@@ -1,3 +1,5 @@
 name: Hack and Tell DC
 highlighter: rouge
 markdown: kramdown
+description: show and tell for hackers in DC
+share_image: http://dc.hackandtell.org/assets/images/logo.png
