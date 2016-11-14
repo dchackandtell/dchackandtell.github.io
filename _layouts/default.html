@@ -6,7 +6,22 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="/favicon.ico">
+
+        <!-- Facebook Metatags -->
+        <meta property="og:url" content="http://dc.hackandtell.org{{ page.url}}" />
+        <meta property="og:title" content="{{ page.title }}" />
+        <meta property="og:description" content="{{ site.description }}" />
+        <meta property="og:image" content="{{ site.share_image }}" />
+        <meta property="og:image:width" content="139" />
+        <meta property="og:image:height" content="134" />
         
+        <!-- Twitter Cards -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dchackandtell" />
+        <meta name="twitter:title" content="{{ page.title }}" />
+        <meta name="twitter:description" content="{{ site.description }}" />
+        <meta name="twitter:image" content="{{ site.share_image }}" />
+
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/assets/css/syntax.css">
 
