@@ -46,7 +46,17 @@ title: Hack and Tell DC
   <h1>Previous Meetup Write Ups</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li>
+      <span>{{ post.date | date_to_string }}</span>
+      &raquo;
+      {% if post.status == "canceled" %}
+      <i>{{post.title}}</i>
+      {% elsif post.status == "notext" %}
+      {{post.title}}
+      {% else %}
+      <a href="{{ post.url }}">{{post.title}}</a>
+      {% endif %}
+    </li>
     {% endfor %}
   </ul>
 </div>
