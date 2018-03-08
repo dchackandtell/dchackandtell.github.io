@@ -1,15 +1,16 @@
-# DC Hack and Tell web site
+# DC Hack && Tell website
 
-This site should be serving at http://dchackandtell.github.io and http://dc.hackandtell.org
+This site should be serving at https://dchackandtell.github.io and https://dc.hackandtell.org
 
 
 Check list of things DC Hack and Tell uses for organizing:
 
- * Meetup group
- * Github org
+ * [Meetup group](https://www.meetup.com/DC-Hack-and-Tell/)
+ * [Github org](https://github.com/dchackandtell)
+ * [Google doc signup form](https://docs.google.com/forms/d/15F33kAQFgI825JECUI7uAqXrdgbr1dkjO0DRK4MOKq4/viewform)
+ * [Google doc for notes](https://docs.google.com/document/d/1DM_qVHEGPNP-UzSGKNlee8lmroNqap4Fg4RgERxxTiY/edit)
+ * [Twitter account](https://twitter.com/dchackandtell)
  * Gmail account
- * Google doc signup form
- * Hackpad for notes
 
 ## Editor's notes
 
