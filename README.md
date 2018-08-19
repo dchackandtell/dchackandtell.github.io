@@ -21,6 +21,7 @@ To build and serve the site locally:
 then visit [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 
 To add a new post, put it in the correct directory under `_posts/{year}`.
+To draft a post (but not create the link), set the status to `notext`.
 
 #### Ubuntu 16.04 installation pre-reqs
 
