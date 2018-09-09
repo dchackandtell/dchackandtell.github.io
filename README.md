@@ -21,7 +21,11 @@ To build and serve the site locally:
 then visit [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 
 To add a new post, put it in the correct directory under `_posts/{year}`.
-To draft a post (but not create the link), set the status to `notext`.
+To draft a post (but not create the link), set the status to `notext`, if you're
+ready to serve set the status to `text`. If the meetup didn't happen for any reason, set it to `canceled`.
+
+If you want to copy the info straight from the raw Google Doc, experiment with
+using [markdownify.py](markdownify.py) to add the hyperlinks in.
 
 #### Ubuntu 16.04 installation pre-reqs
 
