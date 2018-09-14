@@ -5,12 +5,13 @@ This site should be serving at https://dchackandtell.github.io and https://dc.ha
 
 Check list of things DC Hack and Tell uses for organizing:
 
+
  * [Meetup group](https://www.meetup.com/DC-Hack-and-Tell/)
  * [Github org](https://github.com/dchackandtell)
  * [Google doc signup form](https://docs.google.com/forms/d/15F33kAQFgI825JECUI7uAqXrdgbr1dkjO0DRK4MOKq4/viewform)
- * [Google doc for notes](https://docs.google.com/document/d/1DM_qVHEGPNP-UzSGKNlee8lmroNqap4Fg4RgERxxTiY/edit)
+  * [Google doc for notes](https://docs.google.com/document/d/1DM_qVHEGPNP-UzSGKNlee8lmroNqap4Fg4RgERxxTiY/edit) 
+ * [Google doc signup responses (restricted)](https://docs.google.com/spreadsheets/d/1N7awYTEVZ5sbS7IE9H70vak8oXNs-2TZs86bSK7-am4/edit)
  * [Twitter account](https://twitter.com/dchackandtell)
- * Gmail account
 
 ## Editor's notes
 
