@@ -1,7 +1,7 @@
 '''
 Hello DC Hack && Tell editors! This is a simple regex to INLINE replace
 urls in a file with a markdown style. Eg. url becomes [url](url). This
-was written to help clean the Google Doc notes to markdown. This is a python2
+was written to help clean the Google Doc notes to markdown. This is a python3
 program.
 '''
 
