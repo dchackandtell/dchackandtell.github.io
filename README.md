@@ -15,6 +15,9 @@ Check list of things DC Hack and Tell uses for organizing:
 
 ## Editor's notes
 
+Hi! You want to help update the site? Here's what I do.
+Everything is built with jekyll, so first install that.
+
 To build and serve the site locally:
 
     jekyll serve
