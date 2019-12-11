@@ -13,9 +13,9 @@ with open(f) as FIN:
 
 PAT = re.compile(r'(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'".,<>?\xab\xbb\u201c\u201d\u2018\u2019]))')
 
-#for line in raw.split('\n'):
-#    print (line)
-#    print (PAT.sub(r"[\1](\1)", line))
+for line in raw.split('\n'):
+    print (line)
+    print (PAT.sub(r"[\1](\1)", line))
 
 parsed = PAT.sub(r"[\1](\1)", raw)
 
